@@ -8,3 +8,23 @@
 @import url('./reviews.css');
 @import url('./newsletter.css');
 @import url('./footer.css');
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: transparent solid 2px;
+  }
+
+:root {
+    --light-blue: #f7faff;
+    --blue-font: #0a224a;
+    --white: #fff;
+    --grey: #d9d9d9;
+    --dark-grey: #b6b6b6;
+  }
+  
+  :root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Playfair Display", sans-serif;
+  }
