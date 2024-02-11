@@ -1,0 +1,78 @@
+.bestsellers {
+    max-width: 1200px;
+    max-height: 637px;
+  }
+  
+  
+  .bestsellers-box {
+    display: flex;
+    flex-wrap: wrap;
+  margin-right: 20px;
+  
+  }
+  
+  
+  
+  
+  .bestsellers-texts{
+    font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--blue-font);
+  padding-left: 9px;
+  }
+  
+  
+  
+  
+  .bestsellers-photo{
+    width: 258px;
+    height: 193px;
+  }
+  
+  
+  .bestsellers-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--blue-font);
+  }
+  
+  
+  .bestsellers-prize {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--blue-font);
+  }
+  
+  
+  .bestsellers-list {
+  display: flex;
+  }
+  
+  
+  .bestsellers-item {
+    display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-height: 600px;
+  }
+  
+  
+  
+  .bestsellers-title{
+    font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 141%;
+  text-transform: uppercase;
+  color: var(--blue-font);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 42px;
+  }
+  
