@@ -14,7 +14,7 @@
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: transparent solid 2px;
+    outline: red solid 2px;
   }
 
 :root {

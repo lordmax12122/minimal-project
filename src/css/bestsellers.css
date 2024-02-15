@@ -1,18 +1,27 @@
 .bestsellers {
-    max-width: 1200px;
-    max-height: 637px;
+
+    margin-bottom: 104px;
+    margin-top: 110px;
+
   }
   
   
   .bestsellers-box {
     display: flex;
     flex-wrap: wrap;
-  margin-right: 20px;
   
   }
   
+
+  .bestsellers-article{
+    height: 273px;
+  }
   
-  
+ .bestsellers-articles{
+display: flex;
+gap: 24px;
+margin-left: 559px;
+ }
   
   .bestsellers-texts{
     font-family: var(--font-family);
@@ -52,13 +61,13 @@
   
   .bestsellers-list {
   display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
   }
   
   
   .bestsellers-item {
     display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
   max-height: 600px;
   }
   
