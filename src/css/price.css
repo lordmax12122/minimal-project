@@ -1,0 +1,22 @@
+.price-list {
+  border-top: 1px solid var(--blue-font);
+}
+.price-name {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 141%;
+  text-transform: uppercase;
+  color: var(--blue-font);
+}
+.price-cost {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: right;
+  color: var(--blue-font);
+}
+.price-item {
+  border-bottom: 1px solid var(--blue-font);
+}
