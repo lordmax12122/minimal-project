@@ -1,0 +1,74 @@
+.newsletter {
+    padding-top: 100px;
+    padding-bottom: 86px;
+  }
+  
+  .newsletter-title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 141%;
+    text-transform: uppercase;
+    color: var(--blue-font);
+    margin-bottom: 31px;
+  }
+  
+  .newsletter-description {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--blue-font);
+    margin-bottom: 21px;
+  }
+  
+  .newsletter-input {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--grey);
+    border: 1px solid var(--dark-grey);
+    padding: 11px 20px;
+    width: 536px;
+    height: 51px;
+  }
+  
+  .newsletter-box {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .newsletter-checkbox {
+    border: 1px solid var(--dark-grey);
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+  }
+  
+  .newsletter-text {
+    font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #7a7a7a;
+  }
+  
+  .newsletter-button {
+    padding: 17px 65px;
+    width: 224px;
+    height: 51px;
+    background: var(--blue-font);
+    font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--white);
+  border: none;
+  margin-top: 31px;
+  }
+  
+  
+  .newsletter-button:hover {
+    transition: ease-in 0.7s;
+    background: #061835;
+  }
