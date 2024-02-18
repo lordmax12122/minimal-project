@@ -3,6 +3,8 @@
   height: 300px;
 }
 .products-title {
+  display: flex;
+  justify-content: center;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 32px;
@@ -17,4 +19,8 @@
   line-height: 150%;
   color: var(--blue-font);
 }
-
+.products-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
