@@ -1,0 +1,20 @@
+.products-photo {
+  width: 312px;
+  height: 300px;
+}
+.products-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 141%;
+  text-transform: uppercase;
+  color: var(--blue-font);
+}
+.products-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--blue-font);
+}
+
