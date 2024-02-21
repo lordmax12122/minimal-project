@@ -11,10 +11,10 @@
 @import url('./footer.css');
 
 .container {
-    width: 1200px;
+    width: 1350px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: red solid 2px;
+    outline: red solid ;
   }
 
 :root {
