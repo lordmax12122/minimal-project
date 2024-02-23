@@ -19,9 +19,8 @@
 .text-hero {}
 
 .button-hero {
-    background-color: ;
-    padding-left: 72px;
-    padding-right: 72px;
-    padding-top: ;
-    padding-bottom: 19px;
+    padding: 17px 65px;
+    width: 224px;
+    height: 50px;
+    background: var(--blue-font);
 }
