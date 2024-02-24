@@ -2,11 +2,27 @@
 
 .container {}
 
-.dima-list {}
+.dima-list {
+    display: flex;
+    gap: 25px;
+}
+
+.sef {
+    margin-top: 51px;
+}
 
 .dima-item {}
 
-.furniture-title {}
+.furniture-title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: var(--blue-font);
+}
+
+.hj {}
 
 .dima-image {}
 
@@ -16,11 +32,30 @@
 
 .phooto {}
 
-.text-hero {}
+.text-hero {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--blue-font);
+}
 
 .button-hero {
     padding: 17px 65px;
     width: 224px;
     height: 50px;
-    background: var(--blue-font);
+    background-color: var(--blue-font);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    color: var(--white);
+}
+
+.bj {
+    margin-top: 59px;
+}
+
+.kj {
+    margin-top: 30px;
 }
