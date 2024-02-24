@@ -1,0 +1,26 @@
+.hero {}
+
+.container {}
+
+.dima-list {}
+
+.dima-item {}
+
+.furniture-title {}
+
+.dima-image {}
+
+.dima-image2 {}
+
+.hero-item {}
+
+.phooto {}
+
+.text-hero {}
+
+.button-hero {
+    padding: 17px 65px;
+    width: 224px;
+    height: 50px;
+    background: var(--blue-font);
+}
