@@ -1,0 +1,59 @@
+.hero {}
+
+.container {}
+
+.dima-list {
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+}
+
+.sef {
+    margin-top: 51px;
+}
+
+.dima-item {}
+
+.furniture-title {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: var(--blue-font);
+}
+
+.hj {}
+
+.dima-image {}
+
+.dima-image2 {}
+
+.hero-item {}
+
+.text-hero {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--blue-font);
+}
+
+.button-hero {
+    padding: 17px 65px;
+    width: 224px;
+    height: 50px;
+    background-color: var(--blue-font);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    color: var(--white);
+}
+
+.bj {
+    margin-top: 59px;
+}
+
+.kj {
+    margin-top: 30px;
+}
