@@ -1,3 +1,6 @@
+.price {
+  margin-top: 100px;
+}
 .price-list {
   border-top: 1px solid var(--blue-font);
 }
@@ -8,6 +11,10 @@
   line-height: 141%;
   text-transform: uppercase;
   color: var(--blue-font);
+  margin: 0px;
+}
+.price-name:hover {
+  margin-left: 80px;
 }
 .price-cost {
   font-family: var(--font-family);
@@ -19,4 +26,9 @@
 }
 .price-item {
   border-bottom: 1px solid var(--blue-font);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
