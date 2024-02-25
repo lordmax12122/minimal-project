@@ -63,9 +63,7 @@
     color: var(--blue-font);
 }
 
-.about-item-gift {
-
-}
+.about-item-gift {}
 
 .about-text-gift {
     font-family: var(--font-family);
@@ -90,3 +88,10 @@
 .special-item {}
 
 .special-photo {}
+
+.bg-box-1a::before {
+    content: url(../duvan-white.webp);
+    width: 536px;
+    height: 540px;
+    display: block;
+}
