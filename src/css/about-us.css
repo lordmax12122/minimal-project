@@ -17,6 +17,8 @@
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20),
         0px 1px 1px 0px rgba(0, 0, 0, 0.14),
         0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    width: 720px;
+    padding-right: 69px;
 }
 
 .about-item {}
@@ -47,6 +49,12 @@
     padding-bottom: 30px;
 }
 
+.gift {
+    display: flex;
+    gap: 56px;
+    flex-direction: row;
+}
+
 .about-text0 {
     font-family: var(--font-family);
     font-weight: 400;
@@ -56,9 +64,7 @@
 }
 
 .about-item-gift {
-    display: flex;
-    gap: 56px;
-    flex-direction: row;
+
 }
 
 .about-text-gift {

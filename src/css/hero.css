@@ -5,6 +5,7 @@
 .dima-list {
     display: flex;
     gap: 25px;
+    flex-direction: row;
 }
 
 .sef {
@@ -14,7 +15,6 @@
 .dima-item {}
 
 .furniture-title {
-    font-family: var(--second-family);
     font-weight: 400;
     font-size: 50px;
     line-height: 150%;
@@ -29,8 +29,6 @@
 .dima-image2 {}
 
 .hero-item {}
-
-.phooto {}
 
 .text-hero {
     font-family: var(--font-family);
