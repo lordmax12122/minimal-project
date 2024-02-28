@@ -1,80 +1,12 @@
-.bestsellers {
+.bestsellers{
 
-    margin-bottom: 104px;
-    margin-top: 110px;
+  margin-bottom: 100px;
+  
+}
 
-  }
-  
-  
-  .bestsellers-box {
-    display: flex;
-    flex-wrap: wrap;
-  
-  }
-  
 
-  .bestsellers-article{
-    height: 273px;
-  }
-  
- .bestsellers-articles{
-display: flex;
-gap: 24px;
-margin-left: 559px;
- }
-  
-  .bestsellers-texts{
-    font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 150%;
-  color: var(--blue-font);
-  padding-left: 9px;
-  }
-  
-  
-  
-  
-  .bestsellers-photo{
-    width: 258px;
-    height: 193px;
-  }
-  
-  
-  .bestsellers-text {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-    color: var(--blue-font);
-  }
-  
-  
-  .bestsellers-prize {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 150%;
-    color: var(--blue-font);
-  }
-  
-  
-  .bestsellers-list {
-  display: flex;
-  gap: 24px;
-  flex-wrap: wrap;
-  }
-  
-  
-  .bestsellers-item {
-    display: flex;
-  max-height: 600px;
-  }
-  
-  
-  
-  .bestsellers-title{
-    font-family: var(--font-family);
+.bestsellers-title {
+  font-family: var(--font-family);
   font-weight: 400;
   font-size: 32px;
   line-height: 141%;
@@ -83,5 +15,82 @@ margin-left: 559px;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 42px;
-  }
-  
+}
+
+
+.content-box{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+    align-items: flex-start;
+}
+
+.bestsellers-bed{
+  width: 538px;
+  height: 570px;
+}
+
+
+.bestsellers-box {
+  display: flex;
+  row-gap: 30px;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  max-width: 536px;
+  width: 100%;
+}
+
+
+.bestsellers-box-item{
+  flex-basis: calc((100%-1*20px)/2);
+height: 266px;
+}
+
+
+.bestsellers-articles {
+  width: 536px;
+  height: 489px;
+}
+
+
+.bestsellers-article {
+flex-basis: calc((100%-1*20px)/2);
+height: 266px;
+}
+
+
+.bestsellers-photo {
+  width: 258px;
+  height: 193px;
+  margin-bottom: 15px;
+}
+
+
+.bestsellers-texts {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--blue-font);
+  padding-left: 9px;
+}
+
+
+.bestsellers-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--blue-font);
+}
+
+
+.bestsellers-prize {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--blue-font);
+}
+
+

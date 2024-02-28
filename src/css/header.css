@@ -1,0 +1,41 @@
+.header {
+    background-color:var(--light-blue);
+    padding: 15px 65px 30px;
+}
+
+
+.header-logo{
+
+}
+
+
+.header-link{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--blue-font);
+
+}
+
+
+.header-box{
+    display: flex;
+    align-items: center;
+}
+
+
+.header-list {
+    display: flex;
+    margin-left: 572px;
+    gap: 30px;
+    padding: 10px;
+
+}
+.header-item {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: var(--blue-font);
+}
