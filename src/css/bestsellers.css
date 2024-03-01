@@ -1,7 +1,7 @@
-.bestsellers{
+.bestsellers {
 
   margin-bottom: 100px;
-  
+
 }
 
 
@@ -18,14 +18,14 @@
 }
 
 
-.content-box{
+.content-box {
   display: flex;
   gap: 24px;
   justify-content: center;
-    align-items: flex-start;
+  align-items: flex-start;
 }
 
-.bestsellers-bed{
+.bestsellers-bed {
   width: 538px;
   height: 570px;
 }
@@ -41,9 +41,9 @@
 }
 
 
-.bestsellers-box-item{
+.bestsellers-box-item {
   flex-basis: calc((100%-1*20px)/2);
-height: 266px;
+  height: 266px;
 }
 
 
@@ -54,8 +54,8 @@ height: 266px;
 
 
 .bestsellers-article {
-flex-basis: calc((100%-1*20px)/2);
-height: 266px;
+  flex-basis: calc((100%-1*20px)/2);
+  height: 266px;
 }
 
 
@@ -92,5 +92,3 @@ height: 266px;
   line-height: 150%;
   color: var(--blue-font);
 }
-
-
