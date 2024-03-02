@@ -1,22 +1,25 @@
 .hero {}
 
-.container {}
-
 .dima-list {
     display: flex;
     gap: 25px;
     flex-direction: row;
 }
 
-.sef {
-    margin-top: 51px;
+.hero-item {
+    padding-top: 206px;
 }
+
+
 
 .dima-item {}
 
 .furniture-title {
+    font-family: var(--second-family);
+    position: absolute;
     font-weight: 400;
     font-size: 50px;
+    padding-right: 700px;
     line-height: 150%;
     text-transform: uppercase;
     color: var(--blue-font);
@@ -36,10 +39,15 @@
     font-size: 18px;
     line-height: 150%;
     color: var(--blue-font);
+    display: flex;
+    padding-left: 200px;
 }
 
 .button-hero {
-    padding: 17px 65px;
+    padding-right: 65px;
+    padding-left: 65px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     width: 224px;
     height: 50px;
     background-color: var(--blue-font);
@@ -50,10 +58,8 @@
     color: var(--white);
 }
 
-.bj {
-    margin-top: 59px;
-}
-
-.kj {
-    margin-top: 30px;
+.hero-block {
+    display: flex;
+    justify-content: end;
+    position: ;
 }
