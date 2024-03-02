@@ -7,8 +7,7 @@
     flex-direction: row;
 }
 
-.about-list {
-    margin-top: 25px;
+.about {
     padding-top: 36px;
     margin-left: 24px;
     padding-left: 69px;
@@ -19,6 +18,8 @@
         0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     width: 720px;
     padding-right: 69px;
+    margin-bottom: 15px;
+    margin-top: 25px;
 }
 
 .about-item {}
@@ -88,11 +89,3 @@
 .special-item {}
 
 .special-photo {}
-
-.bg-box-1a::before {
-    content: url(../duvan-white.webp);
-    width: 536px;
-    height: 540px;
-    display: block;
-    background-repeat: no-repeat;
-}
