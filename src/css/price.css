@@ -13,9 +13,6 @@
   color: var(--blue-font);
   margin: 0px;
 }
-.price-name:hover {
-  margin-left: 80px;
-}
 .price-cost {
   font-family: var(--font-family);
   font-weight: 700;
