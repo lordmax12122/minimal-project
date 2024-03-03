@@ -1,5 +1,5 @@
 .price {
-  margin-top: 100px;
+  padding-top: 100px;
 }
 .price-list {
   border-top: 1px solid var(--blue-font);
@@ -12,6 +12,22 @@
   text-transform: uppercase;
   color: var(--blue-font);
   margin: 0px;
+  display: inline-flex;
+}
+.price-name::before {
+  content: '';
+  margin-top: 20px;
+  margin-right: 30px;
+  background-size: contain;
+}
+.price-name::before {
+  display: none;
+  border: 1px solid var(--blue-font);
+  width: 50px;
+  height: 0px;
+}
+.price-name:hover::before {
+  display: block;
 }
 .price-cost {
   font-family: var(--font-family);

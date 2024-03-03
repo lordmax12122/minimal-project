@@ -1,6 +1,6 @@
 .header {
     background-color: var(--light-blue);
-    padding: 15px 0 30px;
+    padding: 38px 0 41px;
 }
 
 
@@ -27,7 +27,6 @@
     display: flex;
     margin-left: 572px;
     gap: 30px;
-    padding: 10px;
 
 }
 
