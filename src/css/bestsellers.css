@@ -29,6 +29,29 @@
   height: 570px;
 }
 
+.bestsellers-articles {
+  width: 536px;
+  height: 489px;
+}
+
+.bestsellers-texts {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--blue-font);
+  padding-left: 9px;
+}
+
+
+.bestsellers-prize {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--blue-font);
+}
+
 
 .bestsellers-box {
   display: flex;
@@ -46,12 +69,6 @@
 }
 
 
-.bestsellers-articles {
-  width: 536px;
-  height: 489px;
-}
-
-
 .bestsellers-article {
   flex-basis: calc((100%-1*20px)/2);
   height: 266px;
@@ -65,28 +82,11 @@
 }
 
 
-.bestsellers-texts {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 150%;
-  color: var(--blue-font);
-  padding-left: 9px;
-}
 
 
 .bestsellers-text {
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 18px;
-  line-height: 150%;
-  color: var(--blue-font);
-}
-
-
-.bestsellers-prize {
-  font-family: var(--font-family);
-  font-weight: 700;
   font-size: 18px;
   line-height: 150%;
   color: var(--blue-font);
