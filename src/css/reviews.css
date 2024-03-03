@@ -25,6 +25,7 @@
     border-radius: 8px;
     width: 424px;
     height: 306px;
+    margin-bottom: 16px;
   }
   
   .reviews-box {
@@ -55,7 +56,6 @@
     font-size: 16px;
     color: var(--blue-font);
     opacity: 0.8;
-    margin-bottom: 16px;
   }
   
   .reviews-description {
