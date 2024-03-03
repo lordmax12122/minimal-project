@@ -56,10 +56,12 @@
     font-size: 16px;
     color: var(--blue-font);
     opacity: 0.8;
+    margin-top: 4px;
   }
   
   .reviews-description {
     font-family: var(--font-family);
+    width: 360px;
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
