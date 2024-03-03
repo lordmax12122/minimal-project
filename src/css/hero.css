@@ -1,67 +1,61 @@
 .hero {
+  padding-top: 64px;
+  padding-bottom: 100px;
 }
 
-.dima-list {
+.hero-container {
   display: flex;
-  gap: 25px;
-  flex-direction: row;
+  background-repeat: no-repeat;
+  background-position: 345px 0;
+  background-image: url(../img/sofa.webp);
 }
 
-.hero-item {
-  padding-top: 206px;
-}
-
-.dima-item {
-}
-
-.furniture-title {
-  font-family: var(--second-family);
-  position: absolute;
-  font-weight: 400;
-  font-size: 50px;
-  padding-right: 700px;
-  line-height: 150%;
+.hero-title {
+  color: #0a224a;
+  width: 648px;
   text-transform: uppercase;
-  color: var(--blue-font);
+  font-family: 'Playfair Display';
+  font-size: 50px;
+  line-height: 150%;
+  font-weight: 400;
 }
 
-.hj {
+.hero-box {
+  margin-left: auto;
 }
 
-.dima-image {
+.hero-title::after {
+  display: block;
+  content: url('../img/half-sofa.webp');
+  margin-top: 51px;
 }
 
-.dima-image2 {
-}
-
-.hero-item {
-}
-
-.text-hero {
+.hero-text {
   font-family: var(--font-family);
+  width: 318px;
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
+  margin-top: 54px;
+  margin-bottom: 35px;
   color: var(--blue-font);
 }
 
-.button-hero {
-  padding-right: 65px;
-  padding-left: 65px;
-  padding-top: 13px;
-  padding-bottom: 13px;
+.hero-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #0a224a;
+  border: none;
+  font-family: var(--font-family);
+  padding: 17px 65px;
   width: 224px;
   height: 50px;
-  background-color: var(--blue-font);
-  font-family: var(--font-family);
-  font-weight: 400;
   font-size: 18px;
-  line-height: 133%;
-  color: var(--white);
-  border: none;
+  font-weight: 400;
 }
-
-.hero-block {
-  display: flex;
-  justify-content: end;
+.hero-button:hover {
+  transition: ease-in 0.5s;
+  background-color: #061835;
 }
