@@ -2,6 +2,11 @@
     padding-top: 100px;
     padding-bottom: 86px;
   }
+
+  .newsletter-list {
+    display: flex;
+    justify-content: center;
+  }
   
   .newsletter-title {
     font-family: var(--font-family);
@@ -71,4 +76,8 @@
   .newsletter-button:hover {
     transition: ease-in 0.7s;
     background: #061835;
+  }
+
+  .newsletter-image {
+    margin-left: 100px;
   }
