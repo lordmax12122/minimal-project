@@ -1,24 +1,26 @@
 .about-us {
-  margin-top: 100px;
-  display: flex;
-  gap: 24px;
-  flex-direction: row;
+padding-top: 104px;
 }
 
 .about {
-  padding-top: 36px;
-  margin-left: 24px;
-  padding-left: 69px;
-  padding-bottom: 34px;
-  background-color: rgb(214, 214, 214);
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  background-color: #f7faff;
   width: 760px;
-  height: 534px;
-  padding-right: 69px;
+  height: 500px;
+  align-self: center;
+  margin-right: 24px;
 }
 
-.about-item {
+.about-experience {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.about-experiences {
+  width: 170px;
+}
+.about-list {
+  display: flex;
 }
 
 .about-text {
@@ -27,11 +29,8 @@
   font-size: 16px;
   line-height: 150%;
   color: var(--blue-font);
-}
-
-.about-items {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 35px;
+  margin-left: 69px;
 }
 
 .about-title {
@@ -41,16 +40,9 @@
   line-height: 141%;
   text-transform: uppercase;
   color: var(--blue-font);
-}
-
-.about-item1 {
-  padding-bottom: 30px;
-}
-
-.gift {
-  display: flex;
-  gap: 55px;
-  flex-direction: row;
+  margin-top: 30px;
+  margin-left: 69px;
+  margin-right: 69px;
 }
 
 .about-text0 {
@@ -59,10 +51,9 @@
   font-size: 18px;
   line-height: 150%;
   color: var(--blue-font);
+  margin: 30px 69px 30px 69px;
 }
 
-.about-item-gift {
-}
 
 .about-text-gift {
   font-family: var(--font-family);
@@ -83,13 +74,8 @@
   color: var(--blue-font);
   padding-bottom: 20px;
 }
-.special-item {
-}
+
 .about-us-photo {
-  margin-left: 804px;
-  margin-top: -550px;
   width: 536px;
-  height: 570px;
-}
-.special-photo {
+  height: 540px;
 }
