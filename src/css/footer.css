@@ -71,6 +71,16 @@
 }
 
 
+.footer-address{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 19px;
+letter-spacing: 0.01em;
+color: var(--white);
+font-style: normal;
+}
+
+
 
 .footer-phone-item {}
 
