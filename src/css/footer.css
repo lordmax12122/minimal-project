@@ -1,43 +1,42 @@
-.footer {
+.footer{
     background-color: #0A224A;
     height: 272px;
 }
 
-
-.footer-box {
+.footer-box{
     display: flex;
-    gap: 30px;
+gap: 30px;
 }
 
+.footer-image{
 
-.footer-list {
+}
+
+.footer-list{
     margin-bottom: 24px;
-    display: flex;
-    gap: 219px;
-    padding-top: 48px;
+display: flex;
+gap: 219px;
+padding-top: 48px;
 }
 
-.footer-item {
-    display: flex;
+.footer-item{
+display: flex;
 }
 
-.footer-image {}
-
-.footer-link {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-    color: var(--white);
-}
-
-
-.footer-item-box {
+.footer-item-box{
     display: flex;
     gap: 30px;
 }
 
-.footer-social-icons {
+.footer-link{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: var(--white);
+}
+
+.footer-social-icons{
     margin-left: 68px;
     display: flex;
     gap: 30px;
@@ -52,15 +51,7 @@
 }
 
 
-.footert-adress-item {}
-
-.footer-address {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 19px;
-    letter-spacing: 0.01em;
-    color: var(--white);
-    font-style: normal;
+.footert-adress-item {
 }
 
 
@@ -69,7 +60,6 @@
     gap: 186px;
     margin-bottom: 35px;
 }
-
 
 .footer-address{
     font-family: var(--font-family);
@@ -81,16 +71,7 @@ font-style: normal;
 }
 
 
-
-.footer-phone-item {}
-
-
-.footer-time {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 19px;
-    letter-spacing: 0.01em;
-    color: var(--white);
+.footer-phone-item {
 }
 
 
@@ -98,18 +79,26 @@ font-style: normal;
     display: flex;
     justify-content: center;
     font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 125%;
-    letter-spacing: 0.07em;
-    color: var(--white);
-    opacity: 0.6;
-    padding-bottom: 33px;
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: 0.07em;
+color: var(--white);
+opacity: 0.6;
+padding-bottom: 33px;
 }
 
 
-.footer-hover:hover {
+.footer-hover:hover{
     text-decoration: underline;
-    text-decoration-skip-ink: none;
+text-decoration-skip-ink: none;
+}
+
+.footer-time{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 19px;
+letter-spacing: 0.01em;
+color: var(--white);
 }
 
