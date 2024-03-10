@@ -29,3 +29,7 @@
     --font-family: "Roboto", sans-serif;
     --second-family: "Playfair Display", sans-serif;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
